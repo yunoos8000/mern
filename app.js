@@ -27,8 +27,6 @@ app.use(function(req, res, next) {
 
 app.set('view engine', 'ejs');
 
-
-
 app.listen(port, () => {
   console.log("Start THe server On port " + port);
 });
